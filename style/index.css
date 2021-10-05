@@ -153,6 +153,7 @@ button:hover{
     flex-direction: row;
     padding-top: 10%;
     text-align: center;
+    width: 99%;
 }
 
 /* Second Row of Boxes */
@@ -163,6 +164,7 @@ button:hover{
     flex-direction: row;
     padding-top: 10%;
     text-align: center;
+    width: 99%;
 }
 
 h3{
@@ -202,3 +204,120 @@ footer{
 } */
 
 
+@media screen and (max-width:500px){
+    .navbar{
+        border:1px solid red;
+        height: auto;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .navbar ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border:1px solid red;
+
+    }
+
+    .name{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border:1px solid red;
+    }
+
+    navbar .name{
+        display:flex;
+        flex-direction: column;
+    }
+    .flex{
+        display: flex;
+        justify-content: center;
+    
+        /* First Div */
+    }
+    .bigbox{
+        max-width:80% ;
+        
+    }
+    .bigbox h2{
+        font-size: 40px;
+        padding-left: 80px;
+    }
+
+    .bigbox button{
+        margin-left: 35px;
+    }
+
+    /* Picture row 1 */
+
+    .box1 .box2 .box3 .box4 .box5 .box6{
+        width:90%;
+    }
+
+
+
+
+
+
+
+}
+@media(max-width:800px){
+    .navbar{
+        border:1px solid red;
+        height: auto;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .navbar ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border:1px solid red;
+
+    }
+
+    .name{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border:1px solid red;
+    }
+
+    navbar .name{
+        display:flex;
+        flex-direction: column;
+    }
+    .flex{
+        display: flex;
+        justify-content: center;
+    
+        /* First Div */
+    }
+    .bigbox{
+        max-width:80% ;
+        
+    }
+    .bigbox h2{
+        font-size: 40px;
+        padding-left: 80px;
+    }
+
+    .bigbox button{
+        margin-left: 35px;
+    }
+
+    /* Picture row 1 */
+
+    .box1 .box2 .box3 .box4 .box5 .box6{
+        width:90%;
+    }
+}
